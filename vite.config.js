@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
     plugins: [react(), tailwindcss()],
-    base: '/flight-landing-page/',
+    base: '/flight-landing-page/', //Change
     server: {
         host: '0.0.0.0',
         port: 5173,
